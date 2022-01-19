@@ -21,9 +21,9 @@ pipeline {
                     junit 'hello-app/target/surefire-reports/*.xml'
                 }
             }
-        stage('Test') {
+        stage('deneme') {
             steps {
-                sh 'mvn -f hello-app/pom.xml test'    
+                echo 'bakalim olacak mi '    
                 }
             }
         }
