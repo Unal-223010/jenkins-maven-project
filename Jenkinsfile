@@ -21,11 +21,6 @@ pipeline {
                     junit 'hello-app/target/surefire-reports/*.xml'
                 }
             }
-        stage('deneme') {
-            steps {
-                echo 'bakalim olacak mi '    
-                }
-            }
         }
     }
 }
